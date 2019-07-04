@@ -55,7 +55,7 @@ dishRouter.route('/')
       res.setHeader('Content-Type', 'application/json');
       res.json(dish);
   }, (err) => next(err))
-  .catch((err) => next(err));
+  .catch((err) => next(err)); 
 })
 
 .post((req, res, next) => {
